@@ -1,6 +1,7 @@
 package simpleStartJava.com.bar;
 
 public class Client {
+
     private String firstName;
     private String lastName;
     private int age;
@@ -12,4 +13,21 @@ public class Client {
         this.age = age;
         this.isID = isID;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public boolean isID() {
+        return isID;
+    }
+
 }

@@ -11,6 +11,11 @@ public class Main {
 
         Admin admin = new Admin();
 
-        //admin.checkClient(client1);
+        System.out.println(" Check documents desk");
+        admin.checkClient(client1.getFirstName(), client1.getLastName(), client1.getAge(), client1.isID());
+        admin.checkClient(client2.getFirstName(), client2.getLastName(), client2.getAge(), client2.isID());
+        admin.checkClient(client3.getFirstName(), client3.getLastName(), client3.getAge(), client3.isID());
+        admin.checkClient(client4.getFirstName(), client4.getLastName(), client4.getAge(), client4.isID());
+
     }
 }
